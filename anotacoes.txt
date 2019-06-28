@@ -1,0 +1,37 @@
+--Referencia
+
+https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04
+
+
+*********Criar novo repositorio ****************
+echo "# editora_phoenix" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cristianosena/editora_phoenix.git
+git push -u origin master
+
+
+************************************************
+
+baixar repositorio
+
+git clone  http:\\gitlab.com.br\projeto_exemplo
+
+
+---criar branch
+
+
+git checkout -b configuracao-ci
+
+
+
+
+--SALVA USUARIO E SENHA POR 8 HORAS:
+$ git config --global credential.helper 'cache --timeout=28800'
+
+--SALVA USUARIO E SENHA PERMANENTE:
+git config --global credential.helper cache
+
+-- Listar todas as branchs
+git branch -a
